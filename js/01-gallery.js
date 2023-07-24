@@ -24,6 +24,7 @@ function createGalleryItemsMarkup() {
   gallery.innerHTML = galleryEl;
 }
 createGalleryItemsMarkup();
+
 const instance = basicLightbox.create(
   `<img width="1280" height="auto" src="">`,
   {
